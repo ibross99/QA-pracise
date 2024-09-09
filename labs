@@ -1,0 +1,130 @@
+Lab1 
+
+
+# print("hello world")
+
+#username = "Bob"
+#age=32
+#print(username,'is',age,'years old')
+
+
+username=input('Please enter your name : ')
+age = input('Please enter your age : ')
+print(username,'is',age,'years old')
+
+
+
+
+
+
+LAb 2 
+
+
+names = []
+while len(names) < 3:
+    names.append(input("Enter a name: "))
+
+# For loop to print each name with "is cool"
+for name in names:
+    print(f"{name} is cool")
+
+
+Password lab 
+
+def check_password():
+    # List of common passwords
+    common_passwords = ["123456", "password", "123456789"]
+
+    # Ask the user for a password
+    user_password = input("Enter a password: ")
+
+    # Check if the password is in the list of common passwords
+    if user_password in common_passwords:
+        print(f"Use a safer password, '{user_password}' is compromised.")
+    else:
+        print("Password is safe.")
+
+        check_password()
+
+Lab 2.1
+
+age = int(input("Enter your age: "))
+
+if age >= 18:
+    print("You are in category A")
+elif age >= 16:
+    print("You are in category B")
+else:
+    print("You are in category C")
+
+
+
+
+Lab 3 
+
+num = 1
+
+while num <= 100:
+    square = num ** 2  # Calculate the square of the number
+    print(f"Number: {num}, Square: {square}")
+    
+    # End the loop if the square is greater than 1000
+    if square > 1000:
+        break
+    
+    num += 1  # 
+
+
+
+
+Satisfactory lab (feedback one)
+
+feedback_map = {
+    1: "Needs Improvement",
+    2: "Satisfactory",
+    3: "Good",
+    4: "Excellent"
+}
+
+feedback_template = """
+Feedback for {student_name}:
+- Understanding: {understanding_feedback}
+- Contribution: {contribution_feedback}
+- Lab Completion: {lab_completion_feedback}
+- Engagement: {engagement_feedback}
+- Punctuality: {punctuality_feedback}
+- Further Learning: {further_learning_feedback}
+"""
+
+student_name = input("Enter the student's name: ")
+
+# Collect scores
+scores = {
+    "understanding": int(input("Rate Understanding (1-4): ")),
+
+# Get student name and ratings
+student_name = input("Enter the student's name: ")
+
+# Collect scores
+scores = {
+    "understanding": int(input("Rate Understanding (1-4): ")),
+    "contribution": int(input("Rate Contribution (1-4): ")),
+    "lab_completion": int(input("Rate Lab Completion (1-4): ")),
+    "engagement": int(input("Rate Engagement (1-4): ")),
+    "punctuality": int(input("Rate Punctuality (1-4): ")),
+    "further_learning": int(input("Rate Further Learning (1-4): "))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
