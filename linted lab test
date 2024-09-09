@@ -1,0 +1,11 @@
+def test_count():
+    # Test 1: Count integers in a list
+    assert count([1, 2, 3, 2, 2, 4], 2) == 3, "Test 1 Failed: Expected 3"
+    
+    # Test 2: Count strings in a list
+    assert count(["apple", "banana", "apple", "orange"], "apple") == 2, "Test 2 Failed: Expected 2"
+    
+    print("All tests passed!")
+
+# Run the tests
+test_count()
